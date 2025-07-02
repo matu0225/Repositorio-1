@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shorcut icon" href ="/assets/img/nutri4.png" type="image/x-icon">
+    <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" href="/estilos/contacto.css">
+
+
+</head>
+<body>
+            <header>
+                <h1 class="titulo">Contacto</h1>
+                <nav><!--para navegar entre secciones, puede ser dentro de la misma pagina-->
+                    <ul>
+
+                    <li><a  href="index.html">Principal</a></li> <!--con active damos un color diferente al boton donde estemos navegando-->
+                        <li><a href="tabla.html">Tabla</a></li>
+                        <li><a href="audiovisuales.html">Menús Diabeticos</a></li>
+                        <li><a class="active"  href="contacto.html">Contacto</a></li>
+                    
+                    
+                        
+                        
+                    </ul>
+
+                </nav>
+            </header>
+                <h2>Formulario</h2>
+                <hr>
+                <section id="contacto">
+    <h2> * <u>Registro</u></h2>
+    <h3>Contactanos y mejora tu salud.</h3>
+    <div><!--contenedor generico de bloques, agrupar elementos para aplicar estilos-->
+
+        <form action="gracias.html" method="get"> <!--Para el boton enviar tenga una accion-->
+
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" style="width: 200;" placeholder="Mario hugo"><br><br><!--tipo de entrada como texto-->
+            
+            <label for="password">Crea una contraseña</label><br>
+            <input type="password" id="password" name="contraseña" placeholder="1234"><br><br>
+
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="mariohugo@outlook.com"><br><br><!--id para al
+        hacer click sobre el nombre o texto de arriba del imput-->
+
+        <label>¿Te enviamos informacion al correo?</label><br>
+            <input type="radio" id="pc" name="version" value="PC"><!--el tipo radio se selecciona uno a la vez-->
+        <label for="pc">Si</label><br>
+            <input type="radio" id="ps" name="version" value="PS"> 
+        <label for="ps">No</label><br><br>
+
+        <label for="plataforma">Sexo</label><br>
+            <select id="plataforma" name="plataforma"> <!--<sekect>: una cajita de seleccion dentro de <select> agregamos <option>-->
+                <option value="pc">Hombre</option><!--opciones a elegir-->
+                <option value="snes">Mujer</option>
+                <option value="ps">No especificar</option>
+               
+            </select><br><br>
+
+        <label for="comentario">Comentarios:</label><br>
+                <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Deja tu option"></textarea><br><br> <!--cuadro de cometarios-->
+
+        <input type="submit" value="Enviar">
+        </form>
+    </div>
+    </section>
+
+                
+                    <h4>Creado por <i><q>Matias Ruiz Diaz</q></i></h4> <!--<i>cursiva, <q>citas (comillas)-->
+                    
+
+
+               
+                <footer class="footer">
+                    <p>Derechos reservados &copy; 2025</p>
+                </footer>
+
+
+
+</body>
+</html>
