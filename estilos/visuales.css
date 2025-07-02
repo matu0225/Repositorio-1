@@ -1,9 +1,32 @@
 
 h2{
+color: rgb(3, 45, 31);
 font-family: 'Times New Roman', Times, serif;
-padding:0;
+padding:15px;
 margin: 15px;
+text-shadow: #ed2e2e;
 }
+
+.image3 {
+float: right;
+margin: 0 0 20px 20px;
+max-width: 25%;
+height: auto;
+}
+.p2{
+
+text-align: left;
+margin: 25px;
+}
+.p1{
+    margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+
 
 div.gallery {
 margin: 5px;
@@ -16,19 +39,25 @@ border: 1px solid #777;
 }
 
 .video {
-float: left;
-margin: 0 20px 20px 0;
-max-width: 40%;
-height: auto;
-border: 2px solid #cccccc;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 5px 10px 25px 10px;
+    padding: 1px;
+    max-width:480px;
+    border: 2px solid #cccccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    float:left;
+    aspect-ratio: 16/9;
+    width: 80%;
+    height: 80%
 }
-
-.image {
+.imagenNS {
+    
+    margin-right: 20px;
 float: right;
 margin: 0 20px 20px 0;
 max-width: 40%;
 height: auto;
+transform: translateX(-100px);
+flex-shrink: 0;
 
 }
 
